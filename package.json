@@ -1,0 +1,20 @@
+{
+  "name": "@pipeworx/mcp-openbeautyfacts",
+  "version": "0.1.0",
+  "description": "Open Beauty Facts MCP — Open Beauty Facts API (free, no auth, keyless).",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "openbeautyfacts"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pipeworx-io/mcp-openbeautyfacts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}
