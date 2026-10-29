@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/openbeautyfacts",
   "title": "Openbeautyfacts",
   "description": "Open Beauty Facts MCP — Open Beauty Facts API (free, no auth, keyless).",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "websiteUrl": "https://pipeworx.io/packs/openbeautyfacts",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-openbeautyfacts",

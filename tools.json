@@ -1,0 +1,38 @@
+[
+  {
+    "name": "get_product",
+    "description": "Beauty product barcode lookup. Get detailed info for a cosmetics or personal care product by barcode (EAN/UPC) from Open Beauty Facts. Returns product name, brand, categories, ingredients, period-after-opening, labels, and image. Example: get_product(\"8001090662231\") for a shampoo.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "barcode": {
+          "type": "string",
+          "description": "Product barcode (EAN-13 or UPC-A, e.g., \"8001090662231\")"
+        }
+      },
+      "required": [
+        "barcode"
+      ]
+    }
+  },
+  {
+    "name": "search_products",
+    "description": "Search cosmetics and personal care products by name or keyword in Open Beauty Facts. Returns matching beauty products with barcode, name, brand, categories, and image. Useful for finding ingredients and details of shampoos, lotions, makeup, deodorants, and other personal-care items. Example: search_products(\"shampoo\").",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "Product name or keyword (e.g., \"shampoo\", \"lipstick\")"
+        },
+        "page_size": {
+          "type": "number",
+          "description": "Number of results to return (default: 20, max: 50)"
+        }
+      },
+      "required": [
+        "query"
+      ]
+    }
+  }
+]
